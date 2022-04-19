@@ -39,17 +39,16 @@ namespace OOP_Chess
             get => position;
         }
 
-        public figure(FigureType type)
-        {
-            Type = type;
-            Color = Color;
-        }
-
-        public figure(FigureType type, string position)
+        public figure(FigureType type, string position, FigureColor color)
         {
             Type = type;
             Position = position;
-            Color = Color;
+            Color = color;
+        }
+        public override string ToString()
+        {
+            //return Type.ToString().Substring(0,1) + Position.ToLower();
+            return Color.ToString() + " " +  Type.ToString() + " on " + Position;
         }
     }
 

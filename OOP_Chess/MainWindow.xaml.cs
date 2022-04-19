@@ -26,86 +26,53 @@ namespace OOP_Chess
             InitializeComponent();
             figures.Add(new figure(FigureType.Rook, "A8", FigureColor.Black));
             figures.Add(new figure(FigureType.Rook, "H8", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "B8", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "G8", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "C8", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "F8", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "E8", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "D8", FigureColor.Black));
+            figures.Add(new figure(FigureType.Knight, "B8", FigureColor.Black));
+            figures.Add(new figure(FigureType.Knight, "G8", FigureColor.Black));
+            figures.Add(new figure(FigureType.Bishop, "C8", FigureColor.Black));
+            figures.Add(new figure(FigureType.Bishop, "F8", FigureColor.Black));
+            figures.Add(new figure(FigureType.King, "E8", FigureColor.Black));
+            figures.Add(new figure(FigureType.Queen, "D8", FigureColor.Black));
 
-            figures.Add(new figure(FigureType.Rook, "A7", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "H7", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "B7", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "G7", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "C7", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "F7", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "E7", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "D7", FigureColor.Black));
+            figures.Add(new figure(FigureType.Pawn, "A7", FigureColor.Black));
+            figures.Add(new figure(FigureType.Pawn, "H7", FigureColor.Black));
+            figures.Add(new figure(FigureType.Pawn, "B7", FigureColor.Black));
+            figures.Add(new figure(FigureType.Pawn, "G7", FigureColor.Black));
+            figures.Add(new figure(FigureType.Pawn, "C7", FigureColor.Black));
+            figures.Add(new figure(FigureType.Pawn, "F7", FigureColor.Black));
+            figures.Add(new figure(FigureType.Pawn, "E7", FigureColor.Black));
+            figures.Add(new figure(FigureType.Pawn, "D7", FigureColor.Black));
 
-            figures.Add(new figure(FigureType.Rook, "A6", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "H6", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "B6", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "G6", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "C6", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "F6", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "E6", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "D6", FigureColor.Black));
-
-            figures.Add(new figure(FigureType.Rook, "A5", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "H5", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "B5", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "G5", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "C5", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "F5", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "E5", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "D5", FigureColor.Black));
-
-            figures.Add(new figure(FigureType.Rook, "A4", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "H4", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "B4", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "G4", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "C4", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "F4", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "E4", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "D4", FigureColor.Black));
-
-            figures.Add(new figure(FigureType.Rook, "A3", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "H3", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "B3", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "G3", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "C3", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "F3", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "E3", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "D3", FigureColor.Black));
-
-            figures.Add(new figure(FigureType.Rook, "A2", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "H2", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "B2", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "G2", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "C2", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "F2", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "E2", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "D2", FigureColor.Black));
+            figures.Add(new figure(FigureType.Pawn, "A2", FigureColor.Black));
+            figures.Add(new figure(FigureType.Pawn, "H2", FigureColor.Black));
+            figures.Add(new figure(FigureType.Pawn, "B2", FigureColor.Black));
+            figures.Add(new figure(FigureType.Pawn, "G2", FigureColor.Black));
+            figures.Add(new figure(FigureType.Pawn, "C2", FigureColor.Black));
+            figures.Add(new figure(FigureType.Pawn, "F2", FigureColor.Black));
+            figures.Add(new figure(FigureType.Pawn, "E2", FigureColor.Black));
+            figures.Add(new figure(FigureType.Pawn, "D2", FigureColor.Black));
 
             figures.Add(new figure(FigureType.Rook, "A1", FigureColor.Black));
             figures.Add(new figure(FigureType.Rook, "H1", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "B1", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "G1", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "C1", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "F1", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "E1", FigureColor.Black));
-            figures.Add(new figure(FigureType.Rook, "D1", FigureColor.Black));
+            figures.Add(new figure(FigureType.Knight, "B1", FigureColor.Black));
+            figures.Add(new figure(FigureType.Knight, "G1", FigureColor.Black));
+            figures.Add(new figure(FigureType.Bishop, "C1", FigureColor.Black));
+            figures.Add(new figure(FigureType.Bishop, "F1", FigureColor.Black));
+            figures.Add(new figure(FigureType.King, "E1", FigureColor.Black));
+            figures.Add(new figure(FigureType.Queen, "D1", FigureColor.Black));
 
-
-
-
-
-
-
-
-
-
-
+            lblboard.Text = "";
+            foreach(Figure figure in figures)
+            {
+                lblboard.Text += figure.ToString() + "\n";
+            }  
         }
+        public void DrawBoard(Canvas canvas)
+        {
+            Rectangle rectangle = new Rectangle();
+            rectangle.Width = canvas.Width / 8;
+            rectangle.Height = canvas.Height / 8;
+        }
+
+
     }
 }
